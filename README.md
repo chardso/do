@@ -1,5 +1,5 @@
 # DOCKER
-- What's docker?
+What's docker?
 docker is aplatform for building ,running and shipping applications.it works on all machines.
 if ur application works on your development machine and doesn't  somewhere
 
@@ -11,12 +11,12 @@ with docker you can easily  package ur application with everything it needs and 
 if your application needs a given version of packages ;
 
 ### Node 14
-### mongo 4app,all of these would be included in the application package and run it on any machine that runs docker.
- if someone joins ur team,they don't have to spend half aday setting up their machines to run your application ,they don't have to install and configure all these dependencies.
- They simply tell docker to compose up and docker itself will automatically dowload and run these dependencies inside an isolated enviroment called a container,this isolated enviroment allows multiple and different version of software eg node 14,node 9,app1 and app2 side by side in the same machine without messing each other.
- when ur done with the application u can remove it with it's dependencies in one go,using the command
- # docker-compose down --rmi all
- so docker consistence is built,run and ship application.
+### mongo 4
+- app,all of these would be included in the application package and run it on any machine that runs docker.
+- if someone joins ur team,they don't have to spend half aday setting up their machines to run your application ,they don't have to install and configure all these dependencies.
+- They simply tell docker to compose up and docker itself will automatically dowload and run these dependencies inside an isolated enviroment called a container,this isolated enviroment allows multiple and different version of software eg node 14,node 9,app1 and app2 side by side in the same machine without messing each other.
+- when ur done with the application u can remove it with it's dependencies in one go,using the command # docker-compose down --rmi all
+- so docker consistence is built,run and ship application.
  
  
 #  virtual machines vs containers
